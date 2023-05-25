@@ -1,0 +1,280 @@
+.map_inside {
+    padding: 0.5%;
+    padding-bottom: 1%;
+}
+
+.c_container {
+    top: 10%;
+    padding: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50px;
+    padding: 7%;
+    box-shadow: 0 0.3rem 2rem rgba(0, 0, 0, 0.65);
+}
+
+.map_a {
+    text-decoration: none;
+}
+
+.course_bg {
+    padding: 4%;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.course_container {
+    top: 15%;
+    padding: 8%;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 5%;
+    background: url('../images/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.phone_menu {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .course_container {
+        padding-top: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .c_container {
+        padding-top: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .blank {
+        display: none;
+    }
+
+    .disappear {
+        display: none;
+    }
+}
+
+@media(max-width:920px) {
+    .phone_menu {
+        position: fixed;
+        z-index: 3;
+        top: 10%;
+        right: 5%;
+        display: block;
+    }
+
+    .com_button1 {
+        display: none;
+    }
+
+    .com_button2 {
+        display: none;
+    }
+
+    .com_button3 {
+        display: none;
+    }
+
+    .com_button4 {
+        display: none;
+    }
+}
+
+.com_button1 {
+    position: fixed;
+    z-index: 3;
+    width: 160px;
+    top: 90px;
+    left: 20px;
+    border-radius: 30px;
+    background-color: #45a0e0;
+    padding: 10px;
+}
+
+.com_button2 {
+    position: fixed;
+    z-index: 3;
+    width: 160px;
+    top: 145px;
+    left: 20px;
+    border-radius: 30px;
+    background-color: #45a0e0;
+    padding: 10px;
+}
+
+.com_button3 {
+    position: fixed;
+    z-index: 3;
+    width: 160px;
+    top: 200px;
+    left: 20px;
+    border-radius: 30px;
+    background-color: #45a0e0;
+    padding: 10px;
+}
+
+.com_button4 {
+    position: fixed;
+    z-index: 3;
+    width: 160px;
+    top: 255px;
+    left: 20px;
+    border-radius: 30px;
+    background-color: #45a0e0;
+    padding: 10px;
+}
+
+.com_button1:hover {
+    background-color: #e79b2b;
+    transition-duration: .5s;
+}
+
+.com_button2:hover {
+    background-color: #e79b2b;
+    transition-duration: .5s;
+}
+
+.com_button3:hover {
+    background-color: #e79b2b;
+    transition-duration: .5s;
+}
+
+.com_button4:hover {
+    background-color: #e79b2b;
+    transition-duration: .5s;
+}
+
+.no_decoration {
+    text-decoration: none;
+}
+
+.no_decoration:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.credit {
+    border-radius: 1000px;
+    padding: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin: 2px;
+    color: white
+}
+
+.cognition {
+    box-shadow: 0 0.1rem 1rem rgba(119, 170, 64, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #77aa4a;
+    margin-bottom: 10px;
+}
+
+.con_color {
+    color: #77aa4a;
+}
+
+.knowledge {
+    box-shadow: 0 0.1rem 1rem rgba(81, 128, 32, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #51802e;
+    margin-bottom: 10px;
+}
+
+.kno_color {
+    color: #51802e;
+}
+
+.technology {
+    box-shadow: 0 0.1rem 1rem rgba(0, 101, 0, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #006500;
+    margin-bottom: 10px;
+}
+
+.tec_color {
+    color: #006500;
+}
+
+.value {
+    box-shadow: 0 0.1rem 1rem rgba(0, 50, 0, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #003200;
+    margin-bottom: 10px;
+}
+
+.val_color {
+    color: #003200;
+}
+
+.blank {
+    color: white;
+    padding: 10px;
+    margin: 3px;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    text-align: center;
+    word-break: keep-all;
+}
+
+.button_length {
+    width: 100% !important;
+}
+
+.map_btn {
+    padding: 4%;
+    border: solid 1px;
+    border-color: #41bee1;
+    color: white;
+    background-color: #41bee1;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.map_btn:hover {
+    color: white;
+    background-color: #e79b2b;
+    transition-duration: .5s;
+}

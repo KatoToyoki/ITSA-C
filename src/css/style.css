@@ -1,0 +1,185 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "微軟正黑體";
+}
+
+p,
+pre,
+li {
+    line-height: 2;
+}
+
+pre {
+    font-size: medium;
+}
+
+a {
+    word-break: break-all;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.inside {
+    padding: 1%;
+}
+
+.orange_word {
+    color: #e79b2b;
+}
+
+.blue_word {
+    color: #45a0e0;
+}
+
+.white_word {
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.orange {
+    background-color: #e79b2b;
+    border-color: #e79b2b;
+}
+
+.light_green {
+    background-color: #e0f08d;
+    border-color: #e0f08d;
+}
+
+.green {
+    background-color: #adc48d;
+    border-color: #adc48d;
+}
+
+.orange_border {
+    border: solid 1.5px;
+    border-color: #e79b2b;
+}
+
+.green_word {
+    color: #91b55f;
+}
+
+.light_blue {
+    background-color: #41bee1;
+    border-color: #41bee1;
+}
+
+.blue {
+    background-color: #45a0e0;
+    border-color: #45a0e0;
+}
+
+.blue_green {
+    background-color: #5bc4c5;
+    border-color: #5bc4c5;
+}
+
+.blue_green_word {
+    color: #5bc4c5;
+}
+
+.gradient_bg {
+    background: linear-gradient(-70deg, #41bee1, #adc48d);
+}
+
+.intro_1 {
+    background-color: #95c5a3;
+}
+
+.intro_2 {
+    background-color: #97b497;
+}
+
+.intro_3 {
+    background-color: #7b9885;
+}
+
+.inside {
+    padding: 2%;
+}
+
+.nav_container {
+    padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(-70deg, #41bee1, #adc48d);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.nav_logo {
+    height: 40px;
+}
+
+.inner_container {
+    top: 10%;
+    padding: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+@media (max-width:600px) {
+    .inner_container {
+        padding-top: 15%;
+    }
+}
+
+.footer_bg {
+    padding: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color: white;
+    background: linear-gradient(-70deg, #41bee1, #adc48d);
+    width: 100%;
+}
+
+.facebook {
+    color: white;
+}
+
+.facebook:hover {
+    color: #2a88cb;
+    transition-duration: .5s;
+}
+
+.ball {
+    padding: 5%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(70deg, #e0f08d, #45a0e0);
+    border-radius: 1000px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.5em;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url('../images/left.png');
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+.foot {
+    margin-top: auto;
+}
