@@ -118,7 +118,7 @@ a {
     padding: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
-    background: linear-gradient(-70deg, #41bee1, #adc48d);
+    background: linear-gradient(-70deg, #74a3a3, #e5b83f);
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -147,7 +147,7 @@ a {
     padding-top: 6%;
     padding-bottom: 6%;
     color: white;
-    background: linear-gradient(-70deg, #41bee1, #adc48d);
+    background: linear-gradient(-70deg, #74a3a3, #e5b83f);
     width: 100%;
 }
 
