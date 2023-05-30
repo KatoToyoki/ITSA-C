@@ -36,11 +36,11 @@ a {
 }
 
 .orange_word {
-    color: #e79b2b;
+    color: #6f73c1;
 }
 
 .blue_word {
-    color: #45a0e0;
+    color: #4cb4b2;
 }
 
 .white_word {
@@ -52,23 +52,23 @@ a {
 }
 
 .orange {
-    background-color: #e79b2b;
-    border-color: #e79b2b;
+    background-color: #6f73c1;
+    border-color: #6f73c1;
 }
 
 .light_green {
-    background-color: #e0f08d;
-    border-color: #e0f08d;
+    background-color: #7ddfdd;
+    border-color: #7ddfdd;
 }
 
 .green {
-    background-color: #adc48d;
-    border-color: #adc48d;
+    background-color: #8593d2;
+    border-color: #8593d2;
 }
 
 .orange_border {
     border: solid 1.5px;
-    border-color: #e79b2b;
+    border-color: #6f73c1;
 }
 
 .green_word {
@@ -81,8 +81,8 @@ a {
 }
 
 .blue {
-    background-color: #45a0e0;
-    border-color: #45a0e0;
+    background-color: #4cb4b2;
+    border-color: #4cb4b2;
 }
 
 .blue_green {
@@ -118,7 +118,7 @@ a {
     padding: 0.5%;
     padding-left: 5%;
     padding-right: 5%;
-    background: linear-gradient(-70deg, #74a3a3, #e5b83f);
+    background: linear-gradient(-70deg, #644bb5, #54c4b5);
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -147,7 +147,7 @@ a {
     padding-top: 6%;
     padding-bottom: 6%;
     color: white;
-    background: linear-gradient(-70deg, #74a3a3, #e5b83f);
+    background: linear-gradient(-70deg, #644bb5, #54c4b5);
     width: 100%;
 }
 

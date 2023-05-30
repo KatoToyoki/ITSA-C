@@ -137,22 +137,22 @@
 }
 
 .com_button1:hover {
-    background-color: #e79b2b;
+    background-color: #6f73c1;
     transition-duration: .5s;
 }
 
 .com_button2:hover {
-    background-color: #e79b2b;
+    background-color: #6f73c1;
     transition-duration: .5s;
 }
 
 .com_button3:hover {
-    background-color: #e79b2b;
+    background-color: #6f73c1;
     transition-duration: .5s;
 }
 
 .com_button4:hover {
-    background-color: #e79b2b;
+    background-color: #6f73c1;
     transition-duration: .5s;
 }
 
@@ -174,68 +174,84 @@
     color: white
 }
 
-.cognition {
-    box-shadow: 0 0.1rem 1rem rgba(119, 170, 64, 1);
+.os {
+    box-shadow: 0 0.1rem 1rem rgba(133, 147, 210, 1);
     border-radius: 50%;
     width: 30px;
     height: 30px;
     padding: 5px;
     padding-left: 13px;
     padding-right: 13px;
-    color: #77aa4a;
+    color: #8593d2;
     margin-bottom: 10px;
 }
 
-.con_color {
-    color: #77aa4a;
+.os_color {
+    color: #8593d2;
 }
 
-.knowledge {
-    box-shadow: 0 0.1rem 1rem rgba(81, 128, 32, 1);
+.structure {
+    box-shadow: 0 0.1rem 1rem rgba(111, 126, 193, 1);
     border-radius: 50%;
     width: 30px;
     height: 30px;
     padding: 5px;
     padding-left: 13px;
     padding-right: 13px;
-    color: #51802e;
+    color: #6f7ec1;
     margin-bottom: 10px;
 }
 
-.kno_color {
-    color: #51802e;
+.stru_color {
+    color: #6f7ec1;
 }
 
-.technology {
-    box-shadow: 0 0.1rem 1rem rgba(0, 101, 0, 1);
+.web_program {
+    box-shadow: 0 0.1rem 1rem rgba(76, 93, 167, 1);
     border-radius: 50%;
     width: 30px;
     height: 30px;
     padding: 5px;
     padding-left: 13px;
     padding-right: 13px;
-    color: #006500;
+    color: #4c5da7;
     margin-bottom: 10px;
 }
 
-.tec_color {
-    color: #006500;
+.webPro_color {
+    color: #4c5da7;
 }
 
-.value {
-    box-shadow: 0 0.1rem 1rem rgba(0, 50, 0, 1);
+.open_source {
+    box-shadow: 0 0.1rem 1rem rgba(49, 66, 138, 1);
     border-radius: 50%;
     width: 30px;
     height: 30px;
     padding: 5px;
     padding-left: 13px;
     padding-right: 13px;
-    color: #003200;
+    color: #31428a;
     margin-bottom: 10px;
 }
 
-.val_color {
-    color: #003200;
+.openSour_color {
+    color: #31428a;
+}
+
+.team {
+    box-shadow: 0 0.1rem 1rem rgba(23, 34, 99, 1);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #172263;
+    margin-bottom: 10px;
+}
+
+.team_color {
+    color: #172263;
 }
 
 .blank {
@@ -266,15 +282,15 @@
 .map_btn {
     padding: 4%;
     border: solid 1px;
-    border-color: #41bee1;
+    border-color: #6bb2c5;
     color: white;
-    background-color: #41bee1;
+    background-color: #6bb2c5;
     border-radius: 10px;
     width: 100%;
 }
 
 .map_btn:hover {
     color: white;
-    background-color: #e79b2b;
+    background-color: #6f73c1;
     transition-duration: .5s;
 }
