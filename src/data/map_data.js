@@ -41,15 +41,19 @@ export const course_map = [
                 lecturer: "陳碩漢教授",
                 material: [
                     {
-                        title: "教材1",
+                        title: "ppt教材1",
                         data_link: ""
                     },
                     {
-                        title: "教材2",
+                        title: "ppt教材2",
                         data_link: ""
                     },
                     {
-                        title: "教材3",
+                        title: "ppt教材3",
+                        data_link: ""
+                    },
+                    {
+                        title: "ppt教材4",
                         data_link: ""
                     }
                 ]

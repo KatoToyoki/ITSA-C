@@ -77,27 +77,13 @@ export default function CourseEach() {
                             {data.course_name}
                         </h2>
                     </Col>
-                    <hr></hr>
+                    <hr />
+
                     <Col sm={12} className='orange_word'>
                         <p><b>{data.course_depiction}</b></p>
                     </Col>
                     <Col sm={12}>
                         <p>{data.note}</p>
-                    </Col>
-
-                    <Col sm={4} className='inside'>
-                        教材下載
-                    </Col>
-                    <Col sm={8} className='inside'>
-                        <Row>
-                            {data.material.map((each) => {
-                                return (
-                                    <Col xs={4}>
-                                        <a href={each.data_link} download>{each.title}</a>
-                                    </Col>
-                                );
-                            })}
-                        </Row>
                     </Col>
 
                     <Col sm={2} className='light_green inside center'>
@@ -195,6 +181,25 @@ export default function CourseEach() {
                     </Col>
                     <Col sm={8} className='inside'>
                         {data.credit}學分，每週{data.credit}小時
+                    </Col>
+                    <Col sm={12} md={4}></Col>
+                    <Col sm={12} md={8}>
+                        <hr />
+                    </Col>
+
+                    <Col sm={4} className='inside'>
+                        教材下載
+                    </Col>
+                    <Col sm={8} className='inside'>
+                        <Row>
+                            {data.material.map((each) => {
+                                return (
+                                    <Col xs={4}>
+                                        <a href={each.data_link} download>{each.title}</a>
+                                    </Col>
+                                );
+                            })}
+                        </Row>
                     </Col>
                     <Col sm={12} md={4}></Col>
                     <Col sm={12} md={8}>
