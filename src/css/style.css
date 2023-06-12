@@ -183,3 +183,12 @@ a {
 .foot {
     margin-top: auto;
 }
+
+.phone_title {
+    font-size: smaller;
+    display: none;
+}
+
+.computer_title {
+    display: block;
+}

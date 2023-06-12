@@ -84,6 +84,22 @@ export default function CourseEach() {
                     <Col sm={12}>
                         <p>{data.note}</p>
                     </Col>
+
+                    <Col sm={4} className='inside'>
+                        教材下載
+                    </Col>
+                    <Col sm={8} className='inside'>
+                        <Row>
+                            {data.material.map((each) => {
+                                return (
+                                    <Col xs={4}>
+                                        <a href={each.data_link} download>{each.title}</a>
+                                    </Col>
+                                );
+                            })}
+                        </Row>
+                    </Col>
+
                     <Col sm={2} className='light_green inside center'>
                         核心能力
                     </Col>

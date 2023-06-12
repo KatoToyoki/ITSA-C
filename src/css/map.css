@@ -64,6 +64,14 @@
     .disappear {
         display: none;
     }
+
+    .phone_title {
+        display: none;
+    }
+
+    .computer_title {
+        display: block;
+    }
 }
 
 @media(max-width:920px) {
@@ -88,6 +96,14 @@
     }
 
     .com_button4 {
+        display: none;
+    }
+
+    .phone_title {
+        display: block;
+    }
+
+    .computer_title {
         display: none;
     }
 }

@@ -7,6 +7,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import '../css/style.css'
+import '../css/map.css'
 
 import logo from '../images/logo.png'
 
@@ -14,10 +15,17 @@ export default function Layout() {
     return (
         <div className='flex-wrapper'>
             <Navbar expand="lg" variant='dark' className='nav_container'>
-                <Navbar.Brand href="/news" className='center'>
-                    <img src={logo} alt="logo" className='nav_logo'></img>
+                <Navbar.Brand href="/news" className='center test2'>
+                    <img src={logo} alt="logo" className='nav_logo test3'></img>
                     &nbsp;
-                    <b>智慧創新關鍵人才躍升計畫</b>
+                    <div className='center'>
+                        <div className='phone_title'>
+                            <b>開源系統軟體與軟韌體人才深化</b>
+                        </div>
+                        <div className='computer_title'>
+                            <b>開源系統軟體與軟韌體人才深化</b>
+                        </div>
+                    </div>
                     &nbsp;&nbsp;
                 </Navbar.Brand>
 
