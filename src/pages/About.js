@@ -5,6 +5,8 @@ import 'bootstrap/dist/js/bootstrap.js';
 import '../css/style.css'
 import '../css/map.css'
 
+import plan_structure from '../images/plan_structure.gif'
+
 export default function About() {
     return (
         <div className="c_container">
@@ -62,6 +64,7 @@ export default function About() {
                         <b>計畫架構</b>
                     </Col>
                     <Col sm={12} md={9}>
+                        <img src={plan_structure} width="100%"></img>
                     </Col>
                 </Row>
             </div>
