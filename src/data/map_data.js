@@ -41,21 +41,9 @@ export const course_map = [
                 lecturer: "陳碩漢教授",
                 material: [
                     {
-                        title: "ppt教材1",
+                        title: "",
                         data_link: ""
                     },
-                    {
-                        title: "ppt教材2",
-                        data_link: ""
-                    },
-                    {
-                        title: "ppt教材3",
-                        data_link: ""
-                    },
-                    {
-                        title: "ppt教材4",
-                        data_link: ""
-                    }
                 ]
             },
             {
@@ -96,7 +84,7 @@ export const course_map = [
                 lecturer: "劉建宏教授",
                 material: [
                     {
-                        title: "教材1",
+                        title: "",
                         data_link: ""
                     }
                 ]
@@ -142,7 +130,7 @@ export const course_map = [
                 lecturer: "郭忠義教授",
                 material: [
                     {
-                        title: "教材1",
+                        title: "",
                         data_link: ""
                     }
                 ]
@@ -198,17 +186,9 @@ export const course_map = [
                 lecturer: "王正豪教授",
                 material: [
                     {
-                        title: "教材1",
+                        title: "",
                         data_link: ""
                     },
-                    {
-                        title: "教材2",
-                        data_link: ""
-                    },
-                    {
-                        title: "教材3",
-                        data_link: ""
-                    }
                 ]
             },
             {
@@ -253,8 +233,8 @@ export const course_map = [
                 lecturer: "張世豪教授",
                 material: [
                     {
-                        title: "教材1",
-                        data_link: ""
+                        title: "Linux_Kernel_Module",
+                        data_link: "/data/Linux_Kernel_Module.pdf"
                     }
                 ]
             },
@@ -293,7 +273,7 @@ export const course_map = [
                 lecturer: "劉傳銘教授",
                 material: [
                     {
-                        title: "教材1",
+                        title: "",
                         data_link: ""
                     }
                 ]
