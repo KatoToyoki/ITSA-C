@@ -1,6 +1,6 @@
 export const news = [
     {
-        news_id: "001",
+        news_id: "003",
         year: "2023",
         month: "06",
         date: "05",
@@ -16,7 +16,8 @@ export const news = [
         ",
         image: [
             {
-                image00: "../images/ITSA_competition_2023.jpg",
+                image00: "../images/ITSA極客挑戰賽1.jpg",
+                image01: "../images/ITSA極客挑戰賽2.jpg",
             }
         ],
         audio: [
@@ -85,7 +86,7 @@ export const news = [
         ",
         image: [
             {
-                image00: "../images/",
+                image00: "../images/ITSA開源系統軟體與軟韌體人才深化.jpg",
             }
         ],
         audio: [

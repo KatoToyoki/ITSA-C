@@ -233,7 +233,7 @@ export const course_map = [
                 lecturer: "張世豪教授",
                 material: [
                     {
-                        title: "Linux_Kernel_Module",
+                        title: "Linux Kernel Module.pdf",
                         data_link: "/data/Linux_Kernel_Module.pdf"
                     }
                 ]
