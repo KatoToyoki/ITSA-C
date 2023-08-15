@@ -84,8 +84,8 @@ export const course_map = [
                 lecturer: "劉建宏教授",
                 material: [
                     {
-                        title: "",
-                        data_link: ""
+                        title: "Introduction to Scrum.pdf",
+                        data_link: "/data/01_material/Introduction_to_Scrum.pdf"
                     }
                 ]
             },
@@ -130,8 +130,8 @@ export const course_map = [
                 lecturer: "郭忠義教授",
                 material: [
                     {
-                        title: "",
-                        data_link: ""
+                        title: "Linux Network Kernel Inter-process Communication Module.pdf",
+                        data_link: "/data/02_material/Linux_Network_Kernel_Interprocess_Communication_Module.pdf"
                     }
                 ]
             },
@@ -186,8 +186,44 @@ export const course_map = [
                 lecturer: "王正豪教授",
                 material: [
                     {
-                        title: "",
-                        data_link: ""
+                        title: "OpenSourceOS 00.pdf",
+                        data_link: "/data/04_material/OpenSourceOS00.pdf"
+                    },
+                    {
+                        title: "OpenSourceOS 01 Part I.pdf",
+                        data_link: "/data/04_material/OpenSourceOS01PartI.pdf"
+                    },
+                    {
+                        title: "OpenSourceOS 01 Part II.pdf",
+                        data_link: "/data/04_material/OpenSourceOS01PartII.pdf"
+                    },
+                    {
+                        title: "OpenSourceOS 02.pdf",
+                        data_link: "/data/04_material/OpenSourceOS02.pdf"
+                    },
+                    {
+                        title: "OpenSourceOS 03.pdf",
+                        data_link: "/data/04_material/OpenSourceOS03.pdf"
+                    },
+                    {
+                        title: "Exercise 01.pdf",
+                        data_link: "/data/04_material/Exercise01.pdf"
+                    },
+                    {
+                        title: "Programming Homewprk 01.pdf",
+                        data_link: "/data/04_material/Programming Homewprk01.pdf"
+                    },
+                    {
+                        title: "Programming Homewprk 02.pdf",
+                        data_link: "/data/04_material/Programming Homewprk02.pdf"
+                    },
+                    {
+                        title: "Programming Homewprk 03.pdf",
+                        data_link: "/data/04_material/Programming Homewprk03.pdf"
+                    },
+                    {
+                        title: "Programming Homewprk 04.pdf",
+                        data_link: "/data/04_material/Programming Homewprk04.pdf"
                     },
                 ]
             },
@@ -234,8 +270,13 @@ export const course_map = [
                 material: [
                     {
                         title: "Linux Kernel Module.pdf",
-                        data_link: "/data/Linux_Kernel_Module.pdf"
+                        data_link: "/data/05_material/Linux_Kernel_Module.pdf"
+                    },
+                    {
+                        title: "Linux Driver & Driver Framework.pdf",
+                        data_link: "/data/05_material/Linux_Driver_Driver_Framework.pdf"
                     }
+
                 ]
             },
         ]

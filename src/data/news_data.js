@@ -1,5 +1,36 @@
 export const news = [
     {
+        news_id: "004",
+        year: "2023",
+        month: "08",
+        date: "01",
+        title: "2023產學跨域師資培育講座 開放報名囉！歡迎各位老師與學生一同參與！",
+        content:
+            "ITSA-C類 開源系統軟體與軟韌體人才深化團隊將舉辦產學跨域師資培育講座，針對產業相關研究主題及趨勢發展進行分享與交流，敬邀各位教授及學生一同參與此次講座。\n\
+            報名時間：即日起至2023/08/15 中午12:00止\n\
+            活動日期：2023年8月17日(四)\n\
+            活動地點：國立臺北科技大學 先鋒大樓402室\n\
+            活動議程＆報名鏈結：\n\
+            https://www.surveycake.com/s/QQql8\
+        ",
+        image: [
+            {
+                image00: "../images/2023actPoster.jpg",
+                image01: "../images/2023actSchedule.jpg",
+            }
+        ],
+        audio: [
+            {
+                audio00: "../audio/",
+            }
+        ],
+        video: [
+            {
+                video00: "../video/",
+            }
+        ],
+    },
+    {
         news_id: "003",
         year: "2023",
         month: "06",

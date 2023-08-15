@@ -194,7 +194,7 @@ export default function CourseEach() {
                         <Row>
                             {data.material.map((each) => {
                                 return (
-                                    <Col xs={4}>
+                                    <Col xs={6} style={{ minHeight: "30px" }}>
                                         <a href={each.data_link} download>{each.title}</a>
                                     </Col>
                                 );
@@ -239,7 +239,7 @@ export default function CourseEach() {
                         </a>
                     </Col>
                 </Row>
-            </div>
+            </div >
         </div >
     )
 }
